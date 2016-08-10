@@ -1,10 +1,10 @@
-# Learn Redux
+# Instagram Clone
 
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+This instagram clone uses React router and redux to copy the popular image program. It was made following Wes Bos's tutorial at https://learnredux.com/view/iNzMIoBNnNU
 
 ## Running
 
-First `npm install` to grab all the necessary dependencies. 
+First `npm install` to grab all the necessary dependencies.
 
 Then run `npm start` and open <localhost:7770> in your browser.
 
