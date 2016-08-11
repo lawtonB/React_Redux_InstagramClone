@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-
 import PhotoGrid from './components/PhotoGrid';
 import App from './components/App';
 // import Main from './components/Main';
