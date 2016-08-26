@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import SearchBar from './SearchBar';
 
 const Main = React.createClass({
   render() {
@@ -8,6 +9,8 @@ const Main = React.createClass({
       <h1>
         <Link to='/'>Reduxstagram</Link>
       </h1>
+      {/* <p>test</p> */}
+      <SearchBar />
       {React.cloneElement(this.props.children, this.props)}
     </div>
     )

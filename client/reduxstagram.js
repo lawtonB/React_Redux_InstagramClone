@@ -11,6 +11,11 @@ import { Provider } from 'react-redux';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import store, { history } from './store';
 
+// import Raven from 'raven.js';
+import { sentry_url } from './data/config';
+
+// Raven.config(sentry_url).install();
+
 //if route matches '/' grab Main; depending on URL structure pass PhotoGrid or Single ie children of Main
 
 //use <Provider> to expose store to application
